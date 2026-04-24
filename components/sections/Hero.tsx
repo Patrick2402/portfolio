@@ -102,14 +102,6 @@ export default function Hero() {
           className="flex flex-wrap items-center justify-center gap-4 mb-20"
         >
           <a
-            href="/cv.pdf"
-            download
-            className="flex items-center gap-2 px-6 py-3 bg-primary text-bg font-mono text-sm font-bold tracking-wider hover:bg-secondary transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,255,136,0.4)]"
-          >
-            <span>↓</span>
-            {tr.downloadCv}
-          </a>
-          <a
             href="#contact"
             className="flex items-center gap-2 px-6 py-3 border border-primary text-primary font-mono text-sm tracking-wider hover:bg-[rgba(0,255,136,0.08)] transition-all duration-300"
           >
